@@ -1,0 +1,60 @@
+body{
+  display:flex;
+  flex-direction:column;
+}
+
+.Origami{
+
+    background-color:palevioletred;
+}
+
+canvas{
+    border:8px;
+    margin: 10px;
+    padding:5px;
+}
+
+table {
+    width: 100%;
+  }
+  
+  th {
+    height: 50px;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+  
+  table, tr, td {
+    border: 1px solid black;
+  }
+
+
+ .Dino,
+ .Pigeon,
+ .Boat{
+   max-width: 500px;
+   display:flex;
+   flex-direction:column;
+   margin:10px;
+   border-width:5px 5px 5px 5px;
+   border-color: rebeccapurple;
+ }
+ .Dino{
+   background-color: salmon;
+   text-align: center;
+ }
+ .Boat{
+   background-color: skyblue;
+   align-items: center;
+ }
+ .Pigeon{
+   background-color: springgreen;
+   align-items: center;
+ }
+
+ .origami{
+   display:flex;
+   flex-direction:row;
+ }
